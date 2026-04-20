@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Front-End Developer portfolio — creative, detail-oriented developer building for the web." />
+    <title>Dev Portfolio — Front-End Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <!-- ========================
+         Navigation
+    ======================== -->
+    <header class="site-header" id="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a href="#hero" class="nav-logo" aria-label="Home">DEV.</a>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle navigation menu"
+          aria-expanded="false"
+          aria-controls="navLinks"
+        >
+          <span class="hamburger"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- ========================
+           Hero Section
+      ======================== -->
+      <section class="hero section" id="hero" aria-label="Introduction">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <span class="hero-tag">Available for learnerships</span>
+            <h1 class="hero-title">
+              Hi, I'm <em>Ayanda.</em><br />
+              Front-End Developer.
+            </h1>
+            <p class="hero-desc">
+              I build clean, accessible, and thoughtful web interfaces.
+              Passionate about turning ideas into polished digital experiences.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-outline">Get in touch</a>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="avatar-ring">
+              <div class="avatar">
+                <span>A</span>
+              </div>
+            </div>
+            <div class="floating-badge badge-1">HTML · CSS · JS</div>
+            <div class="floating-badge badge-2">Bootcamp 2024 ✓</div>
+          </div>
+        </div>
+        <div class="hero-scroll-hint" aria-hidden="true">↓ scroll</div>
+      </section>
+
+      <!-- ========================
+           About Section
+      ======================== -->
+      <section class="about section" id="about" aria-label="About me">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">01 — About</span>
+            <h2 class="section-title">Background</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>
+                I'm a front-end developer based in South Africa with a
+                background in both web development and design. I completed an
+                intensive <strong>web development bootcamp in 2024</strong>,
+                where I built real-world projects and sharpened my skills in
+                HTML, CSS, and JavaScript.
+              </p>
+              <p>
+                In April 2026 I completed an <strong>Interior Design
+                certificate</strong>, which might seem unrelated, but it
+                sharpened my eye for layout, proportion, and visual hierarchy.
+                That design sensibility shapes everything I build.
+              </p>
+              <p>
+                I care deeply about clean code, accessibility, and user
+                experience. I'm looking for a learnership where I can grow,
+                contribute, and keep improving.
+              </p>
+            </div>
+            <aside class="about-stats" aria-label="Quick facts">
+              <div class="stat-card">
+                <span class="stat-number">3+</span>
+                <span class="stat-label">Projects shipped</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">2024</span>
+                <span class="stat-label">Bootcamp graduate</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">ZA</span>
+                <span class="stat-label">Based in South Africa</span>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================
+           Projects Section
+      ======================== -->
+      <section class="projects section" id="projects" aria-label="Projects">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">02 — Work</span>
+            <h2 class="section-title">Projects</h2>
+          </div>
+
+          <div class="projects-grid">
+
+            <article class="project-card" aria-label="To-Do App project">
+              <div class="project-header">
+                <span class="project-number">01</span>
+                <div class="project-links">
+                  <a href="#" class="project-link" aria-label="View To-Do App on GitHub" target="_blank" rel="noopener">GitHub ↗</a>
+                  <a href="#" class="project-link" aria-label="View To-Do App live demo" target="_blank" rel="noopener">Live ↗</a>
+                </div>
+              </div>
+              <h3 class="project-title">Taskr — To-Do App</h3>
+              <p class="project-desc">
+                A fully-featured task manager with filtering, inline editing,
+                timestamps, and localStorage persistence. No frameworks, pure
+                vanilla JS, written for readability and portfolio quality.
+              </p>
+              <ul class="project-tech" aria-label="Technologies used">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>localStorage</li>
+              </ul>
+            </article>
+
+            <article class="project-card" aria-label="Weather App project">
+              <div class="project-header">
+                <span class="project-number">02</span>
+                <div class="project-links">
+                  <a href="#" class="project-link" aria-label="View Weather App on GitHub" target="_blank" rel="noopener">GitHub ↗</a>
+                  <a href="#" class="project-link" aria-label="View Weather App live demo" target="_blank" rel="noopener">Live ↗</a>
+                </div>
+              </div>
+              <h3 class="project-title">Skies — Weather App</h3>
+              <p class="project-desc">
+                A weather app using the OpenWeatherMap API. Search any city
+                for real-time temperature, humidity, and conditions. Features
+                dynamic icons and graceful error handling for bad inputs.
+              </p>
+              <ul class="project-tech" aria-label="Technologies used">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>REST API</li>
+              </ul>
+            </article>
+
+            <article class="project-card" aria-label="Portfolio Website project">
+              <div class="project-header">
+                <span class="project-number">03</span>
+                <div class="project-links">
+                  <a href="#" class="project-link" aria-label="View Portfolio on GitHub" target="_blank" rel="noopener">GitHub ↗</a>
+                  <a href="#" class="project-link" aria-label="View Portfolio live" target="_blank" rel="noopener">Live ↗</a>
+                </div>
+              </div>
+              <h3 class="project-title">This Portfolio</h3>
+              <p class="project-desc">
+                My personal developer portfolio, built mobile-first with
+                semantic HTML, responsive CSS, and vanilla JavaScript. Includes
+                smooth scrolling, active nav highlighting, and a mobile menu.
+              </p>
+              <ul class="project-tech" aria-label="Technologies used">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+              </ul>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================
+           Skills Section
+      ======================== -->
+      <section class="skills section" id="skills" aria-label="Skills">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-label">03 — Toolkit</span>
+            <h2 class="section-title">Skills</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-item" aria-label="HTML skill">
+              <span class="skill-icon">⟨/⟩</span>
+              <span class="skill-name">HTML</span>
+              <span class="skill-note">Semantic, accessible markup</span>
+            </div>
+            <div class="skill-item" aria-label="CSS skill">
+              <span class="skill-icon">#</span>
+              <span class="skill-name">CSS</span>
+              <span class="skill-note">Flexbox, Grid, animations</span>
+            </div>
+            <div class="skill-item" aria-label="JavaScript skill">
+              <span class="skill-icon">JS</span>
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-note">ES6+, DOM, APIs</span>
+            </div>
+            <div class="skill-item" aria-label="GitHub skill">
+              <span class="skill-icon">⌥</span>
+              <span class="skill-name">GitHub</span>
+              <span class="skill-note">Version control, repos</span>
+            </div>
+            <div class="skill-item" aria-label="Python skill">
+              <span class="skill-icon">Py</span>
+              <span class="skill-name">Python</span>
+              <span class="skill-note">Basic scripting &amp; logic</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========================
+           Contact Section
+      ======================== -->
+      <section class="contact section" id="contact" aria-label="Contact">
+        <div class="container contact-inner">
+          <div class="section-header">
+            <span class="section-label">04 — Contact</span>
+            <h2 class="section-title">Let's work together.</h2>
+          </div>
+          <p class="contact-desc">
+            I'm actively looking for a learnership opportunity to grow as a
+            developer. If you're building something or just want to talk, 
+            reach out.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:alex@example.com" class="contact-btn" aria-label="Send email to Alex">
+              ✉ alex@example.com
+            </a>
+            <a
+              href="https://github.com/yourusername"
+              class="contact-btn contact-btn-outline"
+              target="_blank"
+              rel="noopener"
+              aria-label="View Alex's GitHub profile"
+            >
+              ⌥ GitHub Profile
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ========================
+         Footer
+    ======================== -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; 2026 Ayanda · Built with HTML, CSS &amp; JS</p>
+        <a href="#hero" class="back-to-top" aria-label="Back to top">↑ Top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
